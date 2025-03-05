@@ -1,0 +1,82 @@
+.programs {
+  display: flex;
+  flex-direction: column;
+}
+
+.programs-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.programs-title p {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.programs-title p a {
+  color: #4d8f76;
+}
+
+.calories-duration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.calories-section,
+.duration-section {
+  width: 100%;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #493e3e;
+}
+
+.calories-options,
+.duration-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.option {
+  width: 240px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #dfccb7;
+}
+
+.option.custom {
+  background-color: #4d8f76;
+  color: #f0f0f0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.calories,
+.duration {
+  font-size: 24px;
+  color: #493e3e;
+}
+.dishes,
+.price {
+  font-size: 16px;
+  color: #493e3e;
+}

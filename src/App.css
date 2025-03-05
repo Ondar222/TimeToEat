@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  max-width: 100%;
+  max-height: 120px;
+}
+
+.header__top-container {
+  width: 100%;
+  max-height: 60px;
+  background-color: #a98c64;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header-discount {
+  display: flex;
+  align-items: center;
+}
+
+.header-discount img {
+  margin-right: 10px;
+}
+
+.header-discount h3 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.order-button {
+  margin-left: auto;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.header__bottom-container {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header__bottom-container ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.header__bottom-container ul li {
+  cursor: pointer;
+}
+
+.header__contacts-container {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  margin-top: 20px;
+}
+
+.header__contacts-container a {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #4d8f76;
+}
+
+.header__contacts-container h1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #493e3e;
+}
