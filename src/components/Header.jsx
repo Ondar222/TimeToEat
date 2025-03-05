@@ -40,7 +40,15 @@ export const Header = () => {
           <li>Отзывы</li>
         </ul>
         <div className="header__contacts-container">
-          <a href="#">Перезвоните мне</a>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              openModal();
+            }}
+          >
+            Перезвоните мне
+          </a>
           <h1>+7 988 500-1-700</h1>
         </div>
       </div>

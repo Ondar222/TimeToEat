@@ -26,7 +26,7 @@ export const Modal = ({ onClose }) => {
   };
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
+    <div id="modal-phone" className="modal-overlay" onClick={onClose}>
       <div className="modal" onClick={(e) => e.stopPropagation()}>
         {!isSubmitted ? (
           <>
